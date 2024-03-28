@@ -7,7 +7,7 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 }).addTo(map);
 
 // Add a marker to the map for New York City
-var marker = L.marker([40.7128, -74.0060]).addTo(map);
+var marker = L.marker([40.662039471811205, -73.96907599801631]).addTo(map);
 
 // Add a popup to the marker
 marker.bindPopup("<b>Hello New York City!</b><br>This is a Leaflet map.").openPopup();
