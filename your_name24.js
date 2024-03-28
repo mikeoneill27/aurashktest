@@ -10,4 +10,4 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 var marker = L.marker([40.68965691085725, -73.96537769031497]).addTo(map);
 
 // Add a popup to the marker
-marker.bindPopup("<b>Hello New York City!</b><br>This is a Leaflet map.").openPopup();
+marker.bindPopup("<b>Luigi's Pizza</b><br>This is a Leaflet map.").openPopup();
